@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(pic/header_backgound.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px rgba(58, 34, 34, 1);
+}
+.box-title {
+    width: 650px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-left: 25%;
+}
+.box-title__title {
+    padding-bottom: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 64px;
+    text-shadow: -1px 11px 15px rgba(128, 0, 0, 1),-10px -7px 2px rgba(88, 14, 14, 0.56);
+}
+.box-title__main {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-shadow: -1px 11px 15px rgba(128, 0, 0, 1),-10px -7px 2px rgba(88, 14, 14, 0.56);
+
+}
+a {
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(206, 206, 206);
+}
+.text {
+    width: 50%;
+    margin: 40px;
+}
+.img img {
+    width: 300px;
+    margin: 20px;
+    margin: 40px;
+    margin-top: 40px;
+}
+
+
+.text-1 {
+ font-size: 25px;
+ font-weight: 700;
+ }
+ 
+.container-link {
+    height: 800px;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-link-1,
+.box-link-2 {
+    padding: 30px;
+    width: 80%;
+    background-color: rgb(113, 104, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box-link__link {
+    background-image: url(pic/box-link-1.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 275px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-link__link a {
+    font-size: 32px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.box1 {
+    background-image: url(pic/flowers.jpg);
+    background-size: cover;
+}
+.box2 {
+    background-image: url(pic/vd.jpg);
+    background-size: cover;
+}
+.box3 {
+    background-image: url(pic/birmingham-museums-trust-Kv1hYl9LlxU-unsplash.jpg);
+    background-size: cover;
+}
+.box4 {
+    background-image: url(pic/europeana-Y8nTMVrZsrE-unsplash.jpg);
+    background-size: cover;
+}
+.box5 {
+    background-image: url(pic/francesco-bianco-TVsgRyKJDc0-unsplash.jpg);
+    background-size: cover;
+}
+.box6 {
+    background-image: url(pic/europeana-VsnDYMWollM-unsplash.jpg);
+    background-size: cover;
+}
+.box7 {
+    background-image: url(pic/europeana-wKI5P9h4P5g-unsplash.jpg);
+    background-size: cover;
+}
+.article-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 0;
+    align-items: center;
+    background-color: rgb(179, 179, 179);
+}
+.article-1-text, 
+.article-2-text,
+.article-3-text,
+.article-4-text,
+.article-5-text
+{
+    background-color: rgb(114, 104, 100);
+    width: 60%;
+
+    padding: 30px;
+}
+.text-2,.text-3,
+.text-0,.text-4,
+.text-5,.text-6 {
+    font-size: 20px;
+    font-weight: 600;
+    }
+footer {
+    height: 10vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav li {
+    display: inline;
+    padding: 0 30px;
+    font-size: 18px;
+}
+.footer-nav {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: 300;
+}
+.footer-nav:hover {
+    color: rgb(61, 61, 61);
+}
+
+
+
